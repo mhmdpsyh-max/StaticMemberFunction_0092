@@ -3,6 +3,8 @@ using namespace std;
 
 class Mahasiswa {//membuat kelas mahasiswa
     public:
+    static int nim;
+    
     int id;
     string nama;
 
@@ -14,7 +16,7 @@ class Mahasiswa {//membuat kelas mahasiswa
     }
 };
 
-int Mahasiswa:: nim = 10;
+int Mahasiswa::nim = 10;
 
 void Mahasiswa:: setID(){
     id = ++nim;
@@ -37,5 +39,7 @@ int main() {
     mhs2.printAll();
     mhs3.printAll();
     mhs4.printAll();
-    
+
+    return 0;
+
 }

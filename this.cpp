@@ -7,5 +7,12 @@ class buku{
 
     string setget(string judul) {
         this->judul = judul; // nilai parameter 'judul' untuk member variabel
-        
+                return this->judul;  // return variabel judul.
+    }
+};
+
+int main() {
+    buku bukunya;
+    cout << bukunya.setget("Matematika");
+        return 0;
 }

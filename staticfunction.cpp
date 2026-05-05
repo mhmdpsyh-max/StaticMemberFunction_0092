@@ -19,6 +19,7 @@ class Mahasiswa {
     }
 
     static int getNim(){
+        return nim;
         
     }
 }

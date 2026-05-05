@@ -29,27 +29,6 @@ class produk{
 };
 
 int main(){
-    produk p1(122, "Lemari");
-    produk p2("TV");
-    produk p3(202);
-    produk p4(303, "Papan");
-    
-    
-    cout << "Produk 1:" << endl;
-    p1.tampilkan();
-    cout << endl;
-
-    cout << "Produk 2:" << endl;
-    p2.tampilkan();
-    cout << endl;
-
-    cout << "Produk 3:" << endl;
-    p3.tampilkan();
-    cout << endl;
-
-    cout << "Produk 4:" << endl;
-    p4.tampilkan();
-    cout << endl;
-
-    return 0;
+     produk p1(100, "Lemari");
+     
 }

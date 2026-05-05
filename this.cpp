@@ -6,5 +6,6 @@ class buku{
     string judul;
 
     string setget(string judul) {
+        this->judul = judul; // nilai parameter 'judul' untuk member variabel
         
 }

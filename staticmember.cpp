@@ -34,5 +34,8 @@ int main() {
     Mahasiswa mhs4("Bagas Satya Widhi");
 
     mhs1.printAll();
+    mhs2.printAll();
+    mhs3.printAll();
+    mhs4.printAll();
     
 }

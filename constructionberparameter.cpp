@@ -10,3 +10,8 @@ public:
 mahasiswa::mahasiswa() {
     cout << "Constructor Terpanggil" << endl; // Definisi Constructor
 }
+
+// Definisi constructor dengan parameter
+mahasiswa::mahasiswa(int nim, string nama) {
+    cout << "Constructor Dengan Parameter Terpanggil" << endl;
+    

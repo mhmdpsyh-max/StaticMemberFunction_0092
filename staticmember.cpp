@@ -6,6 +6,10 @@ class Mahasiswa {//membuat kelas mahasiswa
     int id;
     string nama;
 
-    
-  
-}
+    void setID();
+    void printAll();
+
+    Mahasiswa(string pnama) :nama(pnama) {
+        setID();
+    }
+};
